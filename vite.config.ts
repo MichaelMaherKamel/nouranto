@@ -10,7 +10,6 @@ export default defineConfig({
         v3_relativeSplatPath: true,
         v3_throwAbortReason: true,
       },
-      // serverModuleFormat: 'cjs', // This is important for handling CJS modules
     }),
     tsconfigPaths(),
   ],

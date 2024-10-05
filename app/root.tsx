@@ -2,8 +2,6 @@ import { Links, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/reac
 import type { LinksFunction } from '@remix-run/node'
 import Header from '~/components/Header'
 import Footer from '~/components/Footer'
-import nouranto from '~/images/nouranto.png'
-
 import './tailwind.css'
 
 export const links: LinksFunction = () => [
@@ -16,11 +14,6 @@ export const links: LinksFunction = () => [
   {
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap',
-  },
-  {
-    rel: 'icon',
-    href: nouranto,
-    type: 'image/png',
   },
 ]
 

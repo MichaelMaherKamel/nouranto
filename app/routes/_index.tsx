@@ -118,9 +118,11 @@ export default function LandingPage() {
           <p className='text-green-700 dark:text-green-200 mb-8'>
             Join the Nouranto family and discover a world of delicious, nutritious plant-based options.
           </p>
-          <Button size='lg' className='bg-green-600 hover:bg-green-700 text-white'>
-            Get in Touch
-          </Button>
+          <Link to={'/contact'}>
+            <Button size='lg' className='bg-green-600 hover:bg-green-700 text-white'>
+              Get in Touch
+            </Button>
+          </Link>
         </div>
       </section>
     </>
